@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bonus 2</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="bonus3.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="col-12 main text-center">
+                <input type="text" id="results" class="results">
+                <div class="row">
+                    <div class="col-3"><button class="button-calc" id="0" onclick="addNumber(this)">0</button></div>
+                    <div class="col-3"><button class="button-calc" id="1" onclick="addNumber(this)">1</button></div>
+                    <div class="col-3"><button class="button-calc" id="2" onclick="addNumber(this)">2</button></div>
+                    <div class="col-3"><button class="button-calc" id="+" onclick="addSigne(this)">+</button></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-3"><button class="button-calc" id="3" onclick="addNumber(this)">3</button></div>
+                    <div class="col-3"><button class="button-calc" id="4" onclick="addNumber(this)">4</button></div>
+                    <div class="col-3"><button class="button-calc" id="5" onclick="addNumber(this)">5</button></div>
+                    <div class="col-3"><button class="button-calc" id="-" onclick="addSigne(this)">-</button></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-3"><button class="button-calc" id="6" onclick="addNumber(this)">6</button></div>
+                    <div class="col-3"><button class="button-calc" id="7" onclick="addNumber(this)">7</button></div>
+                    <div class="col-3"><button class="button-calc" id="8" onclick="addNumber(this)">8</button></div>
+                    <div class="col-3"><button class="button-calc" id="*" onclick="addSigne(this)">*</button></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-3"><button class="button-calc" id="9" onclick="addNumber(this)">9</button></div>
+                    <div class="col-3"><button class="button-calc" id="=" onclick="resultat()">=</button></div>
+                    <div class="col-3"><button class="button-calc" id="reset" onclick="resetter()">Reset</button></div>
+                    <div class="col-3"><button class="button-calc" id="/" onclick="addSigne(this)">/</button></div>
+                </div>
+
+            </div> 
+            </div>
+            </div>
+        </div>      
+        <script src="bonus3.js"></script>
+    </body>
+</html>

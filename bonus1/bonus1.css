@@ -1,0 +1,47 @@
+.main {
+    background-image: url(https://www.duranceluberon.fr/image/48-normal.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+.secondary {
+    padding-top: 284px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 335px;
+}
+
+#compteur {
+    margin-left: -13px;
+    width: 310px;
+    height: 76px;
+    border-radius: 15px;
+}
+.button-container{
+    text-align: center;
+    padding-top:280px;
+
+}
+
+.button_plus{
+    background-color: green;
+width:50px;
+border-radius:15px;
+box-shadow: none;
+}
+
+.button_moins{
+    background-color: red;
+    width:50px;
+    border-radius:15px;
+    box-shadow: none;
+    }
+
+
+    .button_reset{
+        background-color: yellow;
+        width:50px;
+        border-radius:15px;
+        box-shadow: none;
+        }
